@@ -8,6 +8,11 @@
 .demo-logo{
     max-width: calc(100% - 20px);
 }
+.title{
+    font-size: 75px;
+    color: white;
+
+}
 
 
 #dashboard-content {
@@ -37,17 +42,21 @@
 
 #form{
     padding: 20px;
-    background-color: #00000096;
     border: 1px;
     border-radius: 12px;
 }
 
 #form ion-item {
+    margin: auto;
+    width: 50%;
+    background-color: #00000096;
+    border-radius: 25px;
     --background: transparent;
 }
 
 #join-button{
-    margin-top: 10px;
+    margin: 10px auto;
+    width: 50%;
 }
 
 

@@ -1,12 +1,13 @@
 <ion-content class="ion-padding" id="dashboard-content">
 
   <div id="card">
-      <img class="demo-logo" src="assets/images/openvidu_white_bg_transp.png" />
+      <img class="demo-logo" src="assets/images/eVigilsVideo Logo white+black 566*185.png" />
 
     <div id="form">
+      <h1 class="title">Telehealth Conference</h1>
         <ion-item align="center">
-            <ion-label position="floating" color="light">Insert your session name</ion-label>
-            <ion-input [(ngModel)]="mySessionId" color="light" (keyup.enter)="join()"></ion-input>
+            <!-- <ion-label position="floating" color="light">Telehealth Conference</ion-label> -->
+            <ion-input [(ngModel)]="mySessionId" placeholder="Enter Conference Name" color="light" (keyup.enter)="join()"></ion-input>
           </ion-item>
           
           <ion-button id="join-button" (click)="join()" expand="block" shape="round"
