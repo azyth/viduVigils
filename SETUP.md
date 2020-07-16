@@ -14,7 +14,7 @@ https://github.com/nodejs/help/wiki/Installation
 `. ~/.profile`
 
 ### install dependencies
-`npm install -g ionic@latest`
+`npm install -g ionic@latest cordova`
 
 
 ## install repo
@@ -26,7 +26,9 @@ https://github.com/nodejs/help/wiki/Installation
 INSTALLED!
 
 ### Run
-`ionic serve`
+`ionic serve` to test locally
+`ionic cordova platform --add browser` <-- this will create a www directory 
+`ionic cordova build --platform=browser` <-- this will create a platforms dir and build www into that.
 
 OpenVidu Platform service must be up and running in your development machine. The easiest way is running this Docker container which wraps both of them (you will need Docker CE):
 
